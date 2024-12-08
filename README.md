@@ -2,7 +2,7 @@
 
 This Python script is designed to automate essential maintenance tasks on a Linux system, helping to keep it running smoothly by performing updates, cleanup, and performance tuning. It is suitable for personal and server environments.
 
-# Features
+## Features
 
 - Updates package lists and installs available updates using the system's package manager.
 - Removes unused packages and cleans up package cache.
@@ -14,20 +14,20 @@ This Python script is designed to automate essential maintenance tasks on a Linu
 - Generates a disk usage report and saves it in the home directory for review.
 - Empties the recycle bin for the current user.
 
-# Requirements
+## Requirements
 
 Software Dependencies
 
     Python 3.x
     os, shutil, and subprocess
 
-# Permissions
+## Permissions
 
 The script requires elevated privileges to perform some tasks. Use sudo to run it:
 
     sudo python3 linux_maintenance.py
 
-# Installation and Usage
+## Installation and Usage
 
 - Download the Script
 
@@ -39,17 +39,17 @@ The script requires elevated privileges to perform some tasks. Use sudo to run i
   
       sudo python3 linux_maintenance.py
 
-# View Logs and Reports
+## View Logs and Reports
 
 - Logs for script actions are saved in ~/maintenance_log.txt.
 - Disk usage reports are saved in the home directory as disk_usage_report.txt.
 
-# Customization
+## Customization
 
 - You can add or remove directories for temporary file or cache cleanup by editing the corresponding sections in the script.
 - Adjust the vm.swappiness parameter value in the script to customize how aggressively the kernel swaps memory. The default is set to 10 for performance optimization.
 
-# Known Issues
+## Known Issues
 
 - The script may not detect and clean caches for non-standard browsers or applications.
 - Some cleanup actions might require manual adjustments for non-default system configurations.
