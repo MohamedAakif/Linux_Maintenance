@@ -18,23 +18,26 @@ This Python script is designed to automate essential maintenance tasks on a Linu
 
 Software Dependencies
 
-  Python 3.x
-  os, shutil, and subprocess modules (standard with Python)
+    Python 3.x
+    os, shutil, and subprocess
 
 # Permissions
 
 The script requires elevated privileges to perform some tasks. Use sudo to run it:
-  sudo python3 linux_maintenance.py
+
+    sudo python3 linux_maintenance.py
 
 # Installation and Usage
 
-Download the Script
+- Download the Script
 
-Make the Script Executable
-  sudo chmod +x linux_maintenance.py
+- Make the Script Executable
+  
+      sudo chmod +x linux_maintenance.py
 
-Run the Script
-  sudo python3 linux_maintenance.py
+- Run the Script
+  
+      sudo python3 linux_maintenance.py
 
 # View Logs and Reports
 
